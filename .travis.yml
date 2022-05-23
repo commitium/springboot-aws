@@ -46,7 +46,7 @@ script: "./gradlew clean build"
 #    wait-until-deployed: true
 
 ## CI 실행 완료시 메일로 알람
-#notifications:
-#  email:
-#    recipients:
-#      - jojoldu@gmail.com
+notifications:
+  email:
+    recipients:
+      - i.am.planner@gmail.com
